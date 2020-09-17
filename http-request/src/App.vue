@@ -12,6 +12,7 @@
          <hr>
        </div>
        <div class="todo-container">
+         //container
          <Todo v-for="todo in todoList" :key="todo"/>
        </div>
      </div>
